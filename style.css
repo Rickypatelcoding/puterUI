@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo-container img{
+    width: 42px;
+    height: 43px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logo-container img:hover{
+    background-color: #0817d9;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.components li{
+    list-style: none;
+}
+
+.components{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 30px;
+    background-color: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    position: relative;
+    top: 2px;
+}
+
+.logo-container h1 {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.icons-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.icons-container i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icons-container i:hover {
+    transform: scale(1.2);
+}
+
+.Trash{
+    display: flex;
+    align-items: last baseline;
+    justify-content: last baseline;
+    position: relative;
+    top: 62px;
+    left: 81px;
+
+}
+.Trash i{
+    font-size: 30px;  
+}
+
+.Trash span{
+    position: relative;
+    top: 33px;
+    right: 32px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-name {
+    display: flex;
+    gap: 30px;
+    background-color: rgba(255, 255, 255, 0.16);
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+.app-name i {
+    font-size: 28px;
+    transition: all 0.3s ease;
+}
+
+.app-name i:hover {
+    transform: scale(1.2);
+    color: #60A5FA;
+}
+/* .tooltip {
+    position: fixed;
+    background-color: #374151;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    pointer-events: none;
+} */
+
